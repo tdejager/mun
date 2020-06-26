@@ -1,8 +1,14 @@
 #[macro_use]
 extern crate log;
 
+mod analysis;
+mod cancelation;
 mod capabilities;
+mod change;
 mod config;
+mod conversion;
+mod db;
+mod diagnostics;
 mod main_loop;
 pub mod protocol;
 
